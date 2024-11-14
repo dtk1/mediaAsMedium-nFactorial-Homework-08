@@ -2,7 +2,7 @@ import squareImg from './assets/square.svg'
 import ladyImg from './assets/ladyIcon.svg'
 const Card = ({image, description}) =>{
     return(
-        <div style={{fontFamily: 'inter, sans-serif', width: '1120px', height: '310px', padding: '0 160px 0 160px'}}>
+        <div style={{fontFamily: 'inter, sans-serif', width: '1120px', padding: '0 160px 0 160px'}}>
             <div style={{display: 'flex', flexDirection: 'row'}}>
                 <div style={{margin: '0 100px 36px 0'}}>
                 <div style={{display:'flex', flexDirection:'row', gap: '4px'}}><img src={ladyImg}></img><div style={{padding: '3px'}}>Authors name in Topics Name 7 July</div></div>
